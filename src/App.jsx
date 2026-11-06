@@ -16,7 +16,7 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter basename="/fitness">
+    <BrowserRouter>
       <Routes>
         {/* ── App shell: navbar + Hi/Logout OR Sign Up/Login ── */}
         <Route element={<Layout />}>
